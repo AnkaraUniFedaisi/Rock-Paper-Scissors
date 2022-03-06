@@ -9,7 +9,7 @@ computer_wins = 0
 
 choices = ["R", "P", "S"]
 while True:
-    user_input = input(f"Enter your move: ")
+    user_input = input("Enter your move: ")
     computer_choice = choices[random.randint(0, 2)]
     if user_input == "R" and computer_choice == "R":
         print(f"\nUser: {user_input}")
